@@ -92,7 +92,3 @@ This repository contains the implementation of the Luban take-home assignment, f
 ## Setup and Usage 🔧
 [To be added: Instructions for setting up and running the project]
 
-## Contributing 🤝
-[To be added: Guidelines for contributing to the project]
-
-The emojis have been carefully selected to maintain professionalism while making the document more visually engaging. Each emoji relates to the section it represents without being overly casual. Would you like me to adjust any of the emoji choices or add/remove them from certain sections?

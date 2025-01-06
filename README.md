@@ -72,8 +72,8 @@ This repository contains the implementation of the Luban take-home assignment, f
 
 
 ## Data Flow Process ⚡
-1. Ingestion pipeline populates the `blocks` and `transactions` tables
-2. The `eth_gas_processed` view is generated from the transactions table
+1. Ingestion pipeline populates the `blocks` and `transactions` tables.
+2. The `eth_gas_processed` view is generated from the transactions table.
 3. Block tracking mechanism:
    - Utilizes `block_tracker.json` to store the latest processed block number
    - Prevents duplicate block processing

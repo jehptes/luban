@@ -21,27 +21,6 @@ INFURA_API_KEY = dbutils.secrets.get(scope = "luban-scope", key = "infura-api-ke
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC
-# MAGIC + Create Database : Raw | Bronze | Gold 
-# MAGIC + Create Tables to store data :  Raw | Bronze | Gold 
-# MAGIC
-# MAGIC ### Data Processing requirements
-# MAGIC
-# MAGIC + Make API calls to Infura and append each output to a python data structure eg dict etc
-# MAGIC + Then convert all the appended data to a dataframe and append it to the table of the raw. 
-# MAGIC + Check already pulled blocks. Ensure no Block is called twice to ensure no duplicate. check the most optimized way to do this eg check blocks as of today , keep track and not load again 
-# MAGIC
-# MAGIC * Replace the api key hardcoded with get secret key
-# MAGIC
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC # NEW IMPLEMENTATION
-
-# COMMAND ----------
-
 from web3 import Web3
 from datetime import datetime
 import time

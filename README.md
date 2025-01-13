@@ -6,7 +6,17 @@ This repository contains the implementation of the Luban take-home assignment, f
 ## Architecture 🏗️
 [Architecture Diagram to be added]
 
+![alt text](<ETH data platform-Page-1.jpg>)
+
 ## Technology Stack 🛠️
+
+### Orchestration and CI/CD : Azure Devops 💫  ( Not yet implemented)
+- Helps with deploying infrastructure seamleslly using azure CI/CD pipelines. 
+- Integrates well with Terraform to support deployment and maintenance of Azure resources. 
+
+### Scecrets and Key Management: Azure key vault 🔐
+- Azure native secret and key management tool. 
+- Integrates well with azure Databricks to manage RPC api key
 
 ### Data Processing: Databricks 💫
 - Unified platform for batch and real-time data processing

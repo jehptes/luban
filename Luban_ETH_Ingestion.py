@@ -4,7 +4,7 @@ data_path = "/FileStore/ethereum_data/block_tracker.json"
 
 # Read the JSON file into a DataFrame
 df = spark.read.json(f"dbfs:{data_path}")
-display(df)
+# display(df)
 
 # COMMAND ----------
 

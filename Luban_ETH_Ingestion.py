@@ -15,8 +15,7 @@ dbutils.widgets.text("data_path", "/FileStore/ethereum_data", "Data Path")
 
 # COMMAND ----------
 
-# read infura_api_key store in azure secrets from azure key vault
-
+# read infura_api_key stored in azure secrets from azure key vault
 INFURA_API_KEY = dbutils.secrets.get(scope = "luban-scope", key = "infura-api-key")
 
 # COMMAND ----------

@@ -4,7 +4,6 @@
 This repository contains the implementation of the Luban take-home assignment, focusing on processing and analyzing Ethereum blockchain data.
 
 ## Architecture 🏗️
-[Architecture Diagram to be added]
 
 ![alt text](<ETH data platform-Page-1.jpg>)
 
@@ -26,15 +25,20 @@ This repository contains the implementation of the Luban take-home assignment, f
 - Collaborative workspace for Data Engineers and Data Scientists
 
 ### Data Visualization: Power BI 📊
-- Versatile visualization capabilities
-- Direct integration with Databricks tables
-- Rich interactive dashboards
+- Direct integration with Databricks to access tables and views. 
+- Versatile visualization capabilities with desktop and web version. 
 
 ## Data Model 📦
 
+### Data Storage :: Azure Datalake Gen 2
+
+file format is : Delta files, which is basically parquet files with ACID properties
+
 ### Data Catalog Structure 📚
-- Catalog: `luban_cat_wks`
+- Unity Catalog: `luban_cat_wks`
 - Schema/Database: `ethereum`
+- Tables: `transactions`, `blocks`
+- View: `eth_gas_processed`
 
 ### Tables and Schema 🗃️
 
